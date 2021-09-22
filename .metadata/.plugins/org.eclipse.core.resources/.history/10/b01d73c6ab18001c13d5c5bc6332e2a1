@@ -1,0 +1,12 @@
+package dio_exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio_media {
+	
+	public static void main(String[] args) {
+		
+		String n1 = JOptionPane.showInputDialog("Digite a primeira nota:");
+	}
+	
+}

@@ -1,0 +1,5 @@
+package br.com.meu_projeto.cm.excecao;
+
+public class ExplosaoException {
+
+}

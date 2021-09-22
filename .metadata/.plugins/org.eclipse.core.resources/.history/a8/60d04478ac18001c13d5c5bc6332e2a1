@@ -1,0 +1,24 @@
+package dio_exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio_media {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite a primeira nota:");
+		int n1 = entrada.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+	
+}

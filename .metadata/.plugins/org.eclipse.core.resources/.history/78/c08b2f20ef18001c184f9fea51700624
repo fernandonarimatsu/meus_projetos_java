@@ -1,0 +1,33 @@
+package dio_exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio_media {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Quantas notas você irá digitar? ");
+		int qtd = entrada.nextInt();
+		
+		System.out.print("Digite a 1ª nota:");
+		int n1 = entrada.nextInt();
+		System.out.print("Digite a 2ª nota:");
+		int n2 = entrada.nextInt();
+		System.out.print("Digite a 3ª nota:");
+		int n3 = entrada.nextInt();
+		System.out.print("Digite a 4ª nota:");
+		int n4 = entrada.nextInt();
+		
+		int soma = (n1 + n2 + n3 + n4);
+		double media = soma / qtd ;
+		
+		System.out.println();
+		System.out.println("A média das notas é: " + media);
+		
+		
+		entrada.close();
+	}
+	
+}
